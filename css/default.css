@@ -1,0 +1,12 @@
+body{
+  background-image: url(../img/background.jpg);
+  
+  background-position: center;
+  font-family: 'maple';
+  background-position: top;
+}
+
+@font-face {
+  font-family: 'maple';
+  src: url(../font/Maplestory-Bold.woff);
+}
