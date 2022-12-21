@@ -1,60 +1,69 @@
 const qnaList = [
     {
-        q: '1. ',
+        q: '이번 년도도 거의 다 지나갔다. 나는',
         a: [
-            { answer: 'a. ', type: ['E']},
-            { answer: 'b. ', type: ['I']},
+            { answer: '만들어둔 계획을 수행하였음', type: ['J']},
+            { answer: '계획을 수행하지 않았거나 만들지도 않음', type: ['P']},
         ]
     },
+
     {
-        q: '2. ',
+        q: '슬슬 연말&새해 인사를 해야할 시기이다',
         a: [
-            { answer: 'a.', type: ['E']},
-            { answer: 'b. ', type: ['I']},
+            { answer: '가까운 지인들에게 먼저 연락을 넣는다', type: ['E']},
+            { answer: '먼저 연락을 돌리지 않고, 누군가 하면 그제야 보낸다', type: ['I']},
         ]
     },
+
     {
-        q: '3. ',
+        q: '나는 지인들에게 어떤 식으로 연말인사를 할까?',
         a: [
-            { answer: 'a. ', type: ['I']},
-            { answer: 'b.', type: ['E']},
+            { answer: '건강 조심하라고 말한다', type: ['S']},
+            { answer: '새해엔 행복하자고 말한다', type: ['N']},
         ]
     },
+
     {
-        q: '4.',
+        q: '새해 목표를 세우려고 한다',
         a: [
-            { answer: 'a. ', type: ['N']},
-            { answer: 'b. ', type: ['S']},
+            { answer: '합리적이고 효율적인 삶을 살고 싶다', type: ['T']},
+            { answer: '스트레스와 걱정거리가 없는 삶을 살고 싶다', type: ['F']},
         ]
     },
+
     {
-        q: '5. ',
+        q: '친구가 내 목표를 보고 비웃는다',
         a: [
-            { answer: 'a. ', type: ['N']},
-            { answer: 'b. ', type: ['S']},
+            { answer: '속으로 조금 상처를 받는다', type: ['F']},
+            { answer: '어쩌라는 건지 모르겠다', type: ['T']},
         ]
     },
+    
     {
-        q: '6. ',
+        q: '오늘은 12월 31일! 내일이면 새해 1월 1일이다',
         a: [
-            { answer: 'a. ', type: ['N']},
-            { answer: 'b. ', type: ['S']},
+            { answer: '나이를 먹는게 안타깝다', type: ['S']},
+            { answer: '괜히 설렌다', type: ['N']},
         ]
     },
+    
     {
-        q: '7. ',
+        q: '새해 1월 1일! 나는',
         a: [
-            { answer: 'a. ', type: ['F']},
-            { answer: 'b. ', type: ['T']},
+            { answer: '새로운 마음으로 해맞이를 한다', type: ['E']},
+            { answer: '사람 많은 건 지치므로 집에 있는다', type: ['I']},
         ]
     },
+
+
     {
-        q: '8. ',
+        q: '나는 이걸',
         a: [
-            { answer: 'a. ', type: ['F']},
-            { answer: 'b. ', type: ['T']},
+            { answer: '왜 만든다 했을까', type: ['F']},
+            { answer: '진짜 귀찮다', type: ['T']},
         ]
     },
+
     {
         q: '9.',
         a: [
@@ -62,6 +71,7 @@ const qnaList = [
             { answer: 'b. ', type: ['T']},
         ]
     },
+
     {
         q: '10. ',
         a: [
@@ -69,6 +79,7 @@ const qnaList = [
             { answer: 'b. ', type: ['J']},
         ]
     },
+
     {
         q: '11.',
         a: [
@@ -76,6 +87,7 @@ const qnaList = [
             { answer: 'b. ', type: ['P']},
         ]
     },
+
     {
         q: '12. ',
         a: [
