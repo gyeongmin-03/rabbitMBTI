@@ -44,28 +44,36 @@ function calResult(){
   }
   
   var result = EnI + NnS + FnT + PnJ;
-  // console.log(result)
   return result;
 }
 
 
 
 function setResult(){
-  var r = calResult();
-  // console.log(r);
-  // documents.getElementById('resultbutton').addEventListener
   
+  if(calResult() === 'ISFP' || calResult() === 'INFP'){
+    var r = '1';
+  } else if(calResult() === 'ISTJ' || calResult() === 'INTJ'){
+    var r = '2';
+  } else if(calResult() === 'ISFJ' || calResult() === 'INFJ'){
+    var r = '3';
+  } else if(calResult() === 'ESTJ' || calResult() === 'ENTJ'){
+    var r = '4';
+  } else if(calResult() === 'ISTP' || calResult() === 'INTP'){
+    var r = '5';
+  } else if(calResult() === 'ENTP' || calResult() === 'ESTP'){
+    var r = '6';
+  } else if(calResult() === 'ENFP' || calResult() === 'ESFP'){
+    var r = '7';
+  } else if(calResult() === 'ESFJ' || calResult() === 'ENFJ'){
+    var r = '8';
+  }
 
 
 
-  // var resultImg = document.createElement('a');
-  
   const imgDiv = document.querySelector('#resultImg');
   var imgURL ='./mbtiHTML/'   + r + '.html';
   imgDiv.href = imgURL;
-
-  // imgDiv.appendChild(resultImg);
-
 
 }
 
@@ -86,7 +94,7 @@ function addAnswer(answerText, qIdx, idx){
   var a = document.querySelector('.answerBox');
   var answer = document.createElement('button');
   answer.classList.add('answerList');
-  answer.classList.add('my-3');
+  answer.classList.add('my-4');
   answer.classList.add('py-3');
   answer.classList.add('mx-auto');
   answer.classList.add('fadeIn');

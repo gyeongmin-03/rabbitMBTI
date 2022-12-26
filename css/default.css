@@ -7,10 +7,10 @@ body{
   color: black;
 }
 
-@font-face {
+/* @font-face {
   font-family: 'maple';
   src: url(../font/Maplestory-Bold.woff);
-}
+} */
 
 #main{
   /* background-color: rgba(255, 255, 255, 0); */
@@ -25,10 +25,23 @@ p{
 }
 
 .main_color{
-  background-color: pink;
+  background-color: white;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgba(0, 0, 0, 0.237);
 }
 
 .main_color:active, .main_color:hover{
-  background-color: rgb(252, 170, 184);
-  color : whitesmoke
+  border-color: rgb(157, 157, 157);
+  background-color: rgb(157, 157, 157);
+  color : white
+} 
+
+
+#result_main{
+  background-color: white;
+  width: 95%;
+  text-align: center;
+  border-radius: 20px;
+
 }
